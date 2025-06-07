@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+h1 {
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  top: 10px;
+}
+
+#controls {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  z-index: 10;
+  border-radius: 5px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+canvas {
+  display: block;
+}
